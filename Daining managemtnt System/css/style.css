@@ -1,0 +1,59 @@
+body{ 
+	font: 14px sans-serif; 
+	background: url(../img/back1.jpg) no-repeat;
+}
+.wrapper{
+	width: 350px; padding: 20px; 
+	background: rgba(255,255,255,0.5);
+	float: right;
+}
+
+.photo_container {
+	float: right;
+	display: grid;
+  grid-template-columns: 150px 150px;
+  grid-template-rows: 150px;
+  grid-gap: 1rem;
+}
+.photo_container .item img {
+	width: 150px;
+	height: 150px;
+}
+.photo_loader {
+	float: left;
+}
+.photo_loader img {
+	max-width: 780px;
+}
+.photo_operation .btn {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.photos_right{
+	float: left;
+}
+.photo_title {
+	font-size: 40px;
+	margin: 20px;
+	color: darkmagenta;
+}
+.photo_basic{
+	color: darkcyan;
+	font-size: 16px;
+	margin: 10px;
+	text-align: right;
+}
+.photo_cat{
+	color: darkblue;
+	font-size: 16px;
+	margin: 10px;
+	text-align: right;
+}
+.photo_caption{
+	padding: 10px;
+	color: teal;
+	font-size: 16px;
+	margin: 10px;
+	min-height: 200px; 
+	background: linear-gradient(rgba(128,255,128,0.25),rgba(128,128,255,0.25));
+}
